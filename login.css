@@ -1,0 +1,142 @@
+body {
+    max-width: 400%;
+    background-image: url(laptop-office-plant-black-background-top-view.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    color: #F8FAFC;
+    text-align: center;
+    border: 2px solid #C084FC;
+    border-radius: 20px;
+    margin: 70px auto;
+    font-size: 40px;
+    text-shadow: 0 0 8px #D946EF;
+    box-shadow: 0 2px 15px #A855F7;
+    width: 50vw;
+    transition: 0.3s;
+}
+
+.header:hover {
+    box-shadow: 0 8px 25px #EC4899;
+    transform: translateY(-5px);
+}
+
+.form {
+    color: #F8FAFC;
+    padding: 15px;
+    width: 50vw;
+    margin: 0 auto;
+    border: 1px solid #A855F7;
+    box-shadow: 0 0 15px #A855F7;
+    border-radius: 10px;
+    height: 32vh;
+    transition: 0.4s;
+}
+
+.form:hover {
+    box-shadow: 0 0 25px #EC4899;
+    transform: translateY(-5px);
+}
+
+input {
+    width: 90%;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.5s;
+    background: transparent;
+    color: white;
+    border: 1px solid #C084FC;
+}
+
+input:hover {
+    box-shadow: 0 0 12px #EC4899 inset;
+    transform: translateY(-3px);
+}
+
+.username,
+.password {
+    color: #F8FAFC;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.username:hover,
+.password:hover {
+    box-shadow: 0 0 10px #EC4899 inset;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 70%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #A855F7, #EC4899);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px #EC4899;
+    transform: translateY(-3px);
+}
+
+.link {
+    margin: 10px;
+    display: block;
+    text-align: center;
+}
+
+.link a {
+    color: #F9A8D4;
+    text-decoration: none;
+}
+
+.link a:hover {
+    color: white;
+}
+
+.c-i {
+    width: 20px;
+}
+
+.checkbox {
+    margin-top: 10px;
+}
+
+.c-l {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.nav li a:hover {
+    color: #EC4899;
+    border: 1px solid #A855F7;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #A855F7;
+}
+
+.nav-1 {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
